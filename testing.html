@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monsters App</title>
+  <script src='testing.js'></script>
+</head>
+<body>
+  <h1>Monsters App</h1>
+  
+  <!-- Form to create a new monster -->
+  <form id="monster-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    
+    <label for="age">Age:</label>
+    <input type="number" id="age" required>
+    
+    <label for="description">Description:</label>
+    <textarea id="description" required></textarea>
+    
+    <button type="submit">Create Monster</button>
+  </form>
+  
+  <!-- List of monsters -->
+  <div id="monster-list"></div>
+  
+  <!-- Load more monsters button -->
+  <button id="load-more">Load More Monsters</button>
+  
+  <script src="js/index.js"></script>
+</body>
+</html>
